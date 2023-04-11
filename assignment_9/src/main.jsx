@@ -10,6 +10,7 @@ import Layout from './components/Layout';
 import Home from './components/Home/Home';
 import Feature from './components/Featured/Feature';
 import FeauterDetails from './components/Featured/FeauterDetails';
+import Blog from './components/Blog';
 
 const router = createBrowserRouter([
   {
@@ -23,9 +24,13 @@ const router = createBrowserRouter([
       {
         path:'featureDetails/:id',
         element:<FeauterDetails/>,
-        loader:({params})=>fetch(`../public/Features.json/${params.id}`)
+        // loader:()=>fetch('../public/Features.json')
 
       },
+      {
+        path:'blog',
+        element:<Blog/>
+      }
       
     ]
   },

@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const FeatureCard = ({feature}) => {
+    // const history = useHistory();
+
     // console.log(feature);
     const{id,img,title,company,job_type_1,job_type_2,salary,location}=feature;
     return (
@@ -22,7 +25,7 @@ const FeatureCard = ({feature}) => {
                 <p>Salary : {salary}</p>
             </div>
           </div>
-         <Link to={`../featureDetails/${feature.id}`}> <button className='btn common w-100  text-white fw-semibold' id='detailsBtn'>View Details</button></Link>
+         <Link to={`../featureDetails/${id}`}> <button className='btn common w-100  text-white fw-semibold' id='detailsBtn'>View Details</button></Link>
 
         </div>
       </div>
