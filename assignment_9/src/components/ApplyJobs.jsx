@@ -26,7 +26,7 @@ const ApplyJobs = () => {
     console.log(job);
     return (
         <div>
-            <h2>Apply job</h2>
+        
             {
                 job.map(jobdata=><ShowJobDetails jobdata={jobdata} key={jobdata.id}/>)
             }
