@@ -11,11 +11,13 @@ import Home from './components/Home/Home';
 import Feature from './components/Featured/Feature';
 import FeauterDetails from './components/Featured/FeauterDetails';
 import Blog from './components/Blog';
+import ErrorPage from './components/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout/>,
+    errorElement:<ErrorPage/>,
     children:[
       {
         path:'/',
