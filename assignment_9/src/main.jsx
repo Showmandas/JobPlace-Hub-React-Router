@@ -14,6 +14,7 @@ import FeauterDetails from './components/Featured/FeauterDetails';
 import Blog from './components/Blog';
 import ErrorPage from './components/ErrorPage.jsx';
 import Charts from './components/Charts';
+import ApplyJobs from './components/ApplyJobs';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
         path:'charts',
         element:<Charts/>
       },
+      {
+        path:'applyjobs',
+        element:<ApplyJobs/>,
+        loader:()=>fetch(`../public/Features.json`)
+      }
       
     ]
   },

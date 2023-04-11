@@ -33,7 +33,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">
+              <Link to={'/applyjobs'} className="nav-link">
                 Applied Jobs
               </Link>
             </li>
