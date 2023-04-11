@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import './Header.css'
-import { Link } from "react-router-dom";
+import {NavLink, Link } from "react-router-dom";
 
 const Header = () => {
+  // const[isActive,setIsActive]=useState(false);
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
@@ -28,19 +29,19 @@ const Header = () => {
               </Link>
             </li> */}
             <li className="nav-item">
-              <Link to={'/charts'} className="nav-link">
+              <NavLink to={'/charts'} className={({isActive})=>(isActive)?'bg-info-subtle rounded  nav-link':'nav-link'}>
                 Statistics
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to={'/applyjobs'} className="nav-link">
+              <NavLink to={'/applyjobs'}  className={({isActive})=>(isActive)?'bg-info-subtle rounded  nav-link':'nav-link'}>
                 Applied Jobs
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to={'/blog'} className="nav-link">
+              <NavLink to={'/blog'}  className={({isActive})=>(isActive)?'bg-info-subtle rounded  nav-link':'nav-link'}>
                 Blogs
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <button className="btn text-white fw-semibold" id="startBtn" >Start Applying</button>
