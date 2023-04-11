@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FeatureCard = ({feature}) => {
     // console.log(feature);
@@ -13,15 +14,15 @@ const FeatureCard = ({feature}) => {
               {company}
             </p>
             <div className='d-flex justify-content-start gap-3'>
-                <button>{job_type_1}</button>
-                <button>{job_type_2}</button>
+                <button className='btn fw-semibold job_btn'>{job_type_1}</button>
+                <button className='btn fw-semibold job_btn'>{job_type_2}</button>
             </div>
             <div className='d-flex justify-content-start mt-3 gap-3'>
                 <p>{location}</p>
                 <p>Salary : {salary}</p>
             </div>
           </div>
-          <button className='btn common w-100  text-white fw-semibold' id='detailsBtn'>View Details</button>
+         <Link to={`../featureDetails/${feature.id}`}> <button className='btn common w-100  text-white fw-semibold' id='detailsBtn'>View Details</button></Link>
 
         </div>
       </div>
