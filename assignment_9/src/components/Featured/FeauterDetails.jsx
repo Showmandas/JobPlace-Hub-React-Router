@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../Utilities/fakeDB";
 
 const FeauterDetails = () => {
   const { id } = useParams();
@@ -10,6 +11,11 @@ const FeauterDetails = () => {
     const data = details.find((detail) => detail.id == id);
     setJobDetail(data);
   }, []);
+  
+  const handleApplyBtn=(id)=>{
+    // console.log(id);
+    addToDb(id);
+  }
   // const{id,img,location,salary}=jobDetail;
   return (
     <div>
@@ -47,7 +53,7 @@ const FeauterDetails = () => {
              <p><img src="../../../public/images/Frame (4).png"/><span className="fw-semibold px-2">Address :</span>{jobDetail.address}</p>
             </div>
           </div>
-          <button className="btn common w-100 mt-3">Apply Now</button>
+          <button onClick={()=>handleApplyBtn(id)} className="btn common w-100 mt-3">Apply Now</button>
 
         </div>
       </div>

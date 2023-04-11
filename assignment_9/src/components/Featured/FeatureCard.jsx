@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const FeatureCard = ({feature}) => {
+const FeatureCard = ({feature,handleApplyBtn}) => {
     // console.log(feature);
+    
     const{id,img,title,company,job_type_1,job_type_2,salary,location}=feature;
     return (
         <div className="col-lg-6 col-md-3 col-12">

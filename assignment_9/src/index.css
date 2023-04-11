@@ -17,3 +17,7 @@
 background-clip: text;
 text-fill-color: transparent;
 }
+
+.bg-header{
+background-color: #1E1E1E !important;
+}
