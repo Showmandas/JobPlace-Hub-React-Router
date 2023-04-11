@@ -1,5 +1,7 @@
 .common{
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+   color: #fff;
+   font-weight: 500 !important;
 
 }
 
