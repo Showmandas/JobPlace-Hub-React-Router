@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const FeatureCard = ({feature}) => {
-    // const history = useHistory();
-
     // console.log(feature);
     const{id,img,title,company,job_type_1,job_type_2,salary,location}=feature;
     return (
