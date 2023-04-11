@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
-        <a className="navbar-brand fw-bold fs-4" href="#">
+        <Link to={'/'} className="navbar-brand fw-bold fs-4">
           JobPlace Hub
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,17 +28,17 @@ const Header = () => {
               </Link>
             </li> */}
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href="#">
+              <Link to={'/charts'} className="nav-link">
                 Statistics
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#">
+              <Link className="nav-link">
                 Applied Jobs
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={'/blog'} className="nav-link" href="#">
+              <Link to={'/blog'} className="nav-link">
                 Blogs
               </Link>
             </li>

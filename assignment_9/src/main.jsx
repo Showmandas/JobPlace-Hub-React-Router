@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+
 // import App from './App'
 import {
   createBrowserRouter,
@@ -12,6 +13,7 @@ import Feature from './components/Featured/Feature';
 import FeauterDetails from './components/Featured/FeauterDetails';
 import Blog from './components/Blog';
 import ErrorPage from './components/ErrorPage.jsx';
+import Charts from './components/Charts';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +34,11 @@ const router = createBrowserRouter([
       {
         path:'blog',
         element:<Blog/>
-      }
+      },
+      {
+        path:'charts',
+        element:<Charts/>
+      },
       
     ]
   },
