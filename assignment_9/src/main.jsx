@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './index.css'
 // import App from './App'
 import {
   createBrowserRouter,
@@ -7,6 +8,7 @@ import {
 } from "react-router-dom";
 import Layout from './components/Layout';
 import Home from './components/Home/Home';
+import Feature from './components/Featured/Feature';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,8 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home />
-      }
+      },
+      
     ]
   },
 

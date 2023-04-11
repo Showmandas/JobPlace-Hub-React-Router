@@ -13,7 +13,7 @@ const Category = () => {
         <div className='container  my-5 py-5'>
             <h1 className='text-center display-4 fw-bold mb-3'>Job Category List</h1>
             <p className='text-center text-body-secondary fs-5 fw-semibold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            <div className='row mt-5 py-4'>
+            <div className='row gy-4 mt-3 py-4'>
 
             {
                 categoryData.map(category=>

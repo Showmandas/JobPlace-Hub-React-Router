@@ -9,8 +9,3 @@
 background-clip: text;
 text-fill-color: transparent;
 }
-
-#btn-start{
-    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
-
-}

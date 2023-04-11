@@ -1,0 +1,63 @@
+[
+    {
+        "id":"1",
+        "img":"../public/images/Group.png",
+        "title":"Technical Database Engineer",
+        "company":"Google LLC",
+        "job_type_1":"Remote",
+        "job_type_2":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"100K - 150K"
+    },
+    {
+        "id":"2",
+        "img":"../public/images/netflix-4 1.png",
+        "title":"Senior Product Designer",
+        "company":"Netflix",
+        "job_type_1":"Onsite",
+        "job_type_2":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"150K - 200K"
+    },
+    {
+        "id":"3",
+        "img":"../public/images/tesla-9 1.png",
+        "title":"Software Engineer",
+        "company":"Tesla",
+        "job_type_1":"Onsite",
+        "job_type_2":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"100K - 150K"
+    },
+    {
+        "id":"4",
+        "img":"../public/images/Group.png",
+        "title":"Technical Database Engineer",
+        "company":"Google LLC",
+        "job_type_1":"Remote",
+        "job_type_2":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"100K - 150K"
+    },
+    {
+        "id":"5",
+        "img":"../public/images/tesla-9 1.png",
+        "title":"Software Engineer",
+        "company":"Tesla",
+        "job_type_1":"Onsite",
+        "job_type_2":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"100K - 150K"
+    },
+    {
+        "id":"6",
+        "img":"../public/images/tesla-9 1.png",
+        "title":"Software Engineer",
+        "company":"Tesla",
+        "job_type_1":"Onsite",
+        "job_type_2":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"100K - 150K"
+    }
+
+]
