@@ -11,4 +11,5 @@
 - Next design details page and fetch and display more info of features.
 - create a blog page and give answer some of questions.
 - Create a chart page where show a area chart of assignment marks of 7 assignments.
--  
+- Next create a page where show the selected jobs by clicking on apply job button in feature details page.
+- 
