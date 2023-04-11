@@ -10,7 +10,7 @@ const Banner = () => {
                     <button className='btn text-white fw-semibold' id='btn-start'>Get Started</button>
                 </div>
                 <div className='col-lg-6 col-12'>
-                    <img src="man.png" className='img-fluid' alt="man picture" />
+                    <img src="../../../public/images/man.png" className='img-fluid' alt="man picture" />
                 </div>
             </div>
             
