@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addToDb } from "../../Utilities/fakeDB";
+import locationImg from '../../images/location.png'
+import salaryImg from '../../images/salary.png'
+import frame from '../../images/frame.png'
+import frame_1 from '../../images/frame_1.png'
+import frame_2 from '../../images/frame_2.png'
+import frame_3 from '../../images/frame_3.png'
+import frame_4 from '../../images/frame_4.png'
 
 const FeauterDetails = () => {
   const { id } = useParams();
@@ -44,13 +51,13 @@ const FeauterDetails = () => {
             <div className="card-body">
                 <h5>Job Details</h5>
                 <hr />
-              <p className="card-title"><img src="../../../public/images/frame.png"/><span className="fw-semibold px-2">Salary : </span>{jobDetail.salary}</p>
-              <p className="card-title"><img src="../../../public/images/frame_1.png"/><span className="fw-semibold px-2">Job Title : </span> {jobDetail.title}</p>
+              <p className="card-title"><img src={frame}/><span className="fw-semibold px-2">Salary : </span>{jobDetail.salary}</p>
+              <p className="card-title"><img src={frame_1}/><span className="fw-semibold px-2">Job Title : </span> {jobDetail.title}</p>
              <h5 className="mt-5">Contact Information</h5>
              <hr />
-             <p><img src="../../../public/images/frame_2.png"/><span className="fw-semibold px-2">Phone : </span>{jobDetail.phone}</p>
-             <p><img src="../../../public/images/frame_3.png"/><span className="fw-semibold px-2">Email : </span>{jobDetail.email}</p>
-             <p><img src="../../../public/images/frame_4.png"/><span className="fw-semibold px-2">Address :</span>{jobDetail.address}</p>
+             <p><img src={frame_2}/><span className="fw-semibold px-2">Phone : </span>{jobDetail.phone}</p>
+             <p><img src={frame_3}/><span className="fw-semibold px-2">Email : </span>{jobDetail.email}</p>
+             <p><img src={frame_4}/><span className="fw-semibold px-2">Address :</span>{jobDetail.address}</p>
             </div>
           </div>
           <button onClick={()=>handleApplyBtn(id)} className="btn common w-100 mt-3">Apply Now</button>

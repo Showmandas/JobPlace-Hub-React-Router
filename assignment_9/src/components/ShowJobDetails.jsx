@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import locationimg from '../images/location.png';
+import  salaryimg from '../images/salary.png';
 
 const ShowJobDetails = ({jobdata}) => {
   // const[jobData,setJobData]=useState({jobdata})
@@ -37,8 +39,8 @@ const ShowJobDetails = ({jobdata}) => {
                 <button className='btn fw-semibold job_btn'>{job_type_2}</button>
             </div>
             <div className='d-flex justify-content-start mt-3 gap-2'>
-                <p style={{color:'#757575'}}><img src='../../public/images/location.png'/> {location}</p>
-                <p style={{color:'#757575'}}><img src='../../public/images/salary.png'/> Salary : {salary}</p>
+                <p style={{color:'#757575'}}><img src={locationimg}/> {location}</p>
+                <p style={{color:'#757575'}}><img src={salaryimg}/> Salary : {salary}</p>
             </div>
           </div>
 
