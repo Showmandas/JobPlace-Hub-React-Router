@@ -23,7 +23,7 @@ const FeatureCard = ({feature,handleApplyBtn}) => {
                 <p>Salary : {salary}</p>
             </div>
           </div>
-         <Link to={`../featureDetails/${id}`}> <button className='btn common w-100  text-white fw-semibold' id='detailsBtn'>View Details</button></Link>
+         <Link to={`/featureDetails/${id}`}> <button className='btn common w-100  text-white fw-semibold' id='detailsBtn'>View Details</button></Link>
 
         </div>
       </div>
