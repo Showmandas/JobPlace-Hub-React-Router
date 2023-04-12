@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/featureDetails"
-  status = 301
