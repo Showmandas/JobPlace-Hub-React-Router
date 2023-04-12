@@ -12,4 +12,7 @@
 - create a blog page and give answer some of questions.
 - Create a chart page where show a area chart of assignment marks of 7 assignments.
 - Next create a page where show the selected jobs by clicking on apply job button in feature details page.
-- 
+- finally deploy this site on Ntlify
+  
+  ### Live site link : 
+  [Click on this Live Site link](https://legendary-zuccutto-a14e37.netlify.app/) 
