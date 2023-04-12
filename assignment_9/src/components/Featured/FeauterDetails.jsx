@@ -44,13 +44,13 @@ const FeauterDetails = () => {
             <div className="card-body">
                 <h5>Job Details</h5>
                 <hr />
-              <p className="card-title"><img src="../../../public/images/Frame.png"/><span className="fw-semibold px-2">Salary : </span>{jobDetail.salary}</p>
-              <p className="card-title"><img src="../../../public/images/Frame (1).png"/><span className="fw-semibold px-2">Job Title : </span> {jobDetail.title}</p>
+              <p className="card-title"><img src="../../../public/images/frame.png"/><span className="fw-semibold px-2">Salary : </span>{jobDetail.salary}</p>
+              <p className="card-title"><img src="../../../public/images/frame_1.png"/><span className="fw-semibold px-2">Job Title : </span> {jobDetail.title}</p>
              <h5 className="mt-5">Contact Information</h5>
              <hr />
-             <p><img src="../../../public/images/Frame (2).png"/><span className="fw-semibold px-2">Phone : </span>{jobDetail.phone}</p>
-             <p><img src="../../../public/images/Frame (3).png"/><span className="fw-semibold px-2">Email : </span>{jobDetail.email}</p>
-             <p><img src="../../../public/images/Frame (4).png"/><span className="fw-semibold px-2">Address :</span>{jobDetail.address}</p>
+             <p><img src="../../../public/images/frame_2.png"/><span className="fw-semibold px-2">Phone : </span>{jobDetail.phone}</p>
+             <p><img src="../../../public/images/frame_3.png"/><span className="fw-semibold px-2">Email : </span>{jobDetail.email}</p>
+             <p><img src="../../../public/images/frame_4.png"/><span className="fw-semibold px-2">Address :</span>{jobDetail.address}</p>
             </div>
           </div>
           <button onClick={()=>handleApplyBtn(id)} className="btn common w-100 mt-3">Apply Now</button>

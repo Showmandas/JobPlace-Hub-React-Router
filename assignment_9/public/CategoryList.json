@@ -1,25 +1,25 @@
 [
     {
         "'id'":"1",
-        "img":"../public/images/accounts.png",
+        "img":"./images/accounts.png",
         "title":"Account & Finance",
         "postNo":100
     },
     {
         "'id'":"2",
-        "img":"../public/images/business.png",
+        "img":"./images/business.png",
         "title":"Creative Design",
         "postNo":150
     },
     {
         "'id'":"3",
-        "img":"../public/images/socialMedia.png",
+        "img":"./images/socialMedia.png",
         "title":"Marketing & Sales",
         "postNo":200
     },
     {
         "'id'":"4",
-        "img":"../public/images/chip.png",
+        "img":"./images/chip.png",
         "title":"Engineering Job",
         "postNo":250
     }
