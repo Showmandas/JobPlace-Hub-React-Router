@@ -4,18 +4,21 @@ import locationimg from '../images/location.png';
 import  salaryimg from '../images/salary.png';
 
 const ShowJobDetails = ({jobdata}) => {
-  // const[jobData,setJobData]=useState({jobdata})
-  // console.log(jobData.jobdata);
-  // const [filterData,setFilterData]=useState([])
-  // const showJob=()=>{
-  //   const filtered=jobData.jobdata.filter(job=>job.job_type_1=='Remote')
-  //   setJobData(filtered)
-  // }
+  
     const{id,title,img,company,job_type_1,job_type_2,location,salary}=jobdata
     
     return (
+    
         <div className='mt-5'>
               {/* <button onClick={showJob}>Remote</button> */}
+              <div className='w-100 d-flex align-items-end justify-content-lg-end mb-4'>
+              <select className="form-select w-25 flex-end" aria-label="Default select example">
+  <option selected>Filter</option>
+  <option value="fullTime">Full Time</option>
+  <option value="onsite">Onsite</option>
+  <option value="remote">Remote</option>
+</select>
+              </div>
           <div className='d-flex justify-content-lg-end align-items-lg-end'>
               <div>
                 {/* {
