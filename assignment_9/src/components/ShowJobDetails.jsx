@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const ShowJobDetails = ({jobdata}) => {
+  // const[jobData,setJobData]=useState({jobdata})
+  // console.log(jobData.jobdata);
+  // const [filterData,setFilterData]=useState([])
+  // const showJob=()=>{
+  //   const filtered=jobData.jobdata.filter(job=>job.job_type_1=='Remote')
+  //   setJobData(filtered)
+  // }
     const{id,title,img,company,job_type_1,job_type_2,location,salary}=jobdata
+    
     return (
         <div className='mt-5'>
+              {/* <button onClick={showJob}>Remote</button> */}
+          <div className='d-flex justify-content-lg-end align-items-lg-end'>
+              <div>
+                {/* {
+                     filterData.map(item=><h2>hello remote</h2>)
+                } */}
+              </div>
+              </div>
             <div className="card mb-3 h-100">
   <div className="row gy-2">
     <div className="col-md-4  d-flex justify-content-center align-items-center">
@@ -29,7 +45,7 @@ const ShowJobDetails = ({jobdata}) => {
       </div>
       <div className='col-lg-4 d-flex justify-content-center align-items-center'>
 
-         <Link> <button className='btn common w-100  text-white fw-semibold ' id='detailsBtn'>View Details</button></Link>
+         <Link to={`/featureDetails/${id}`}> <button className='btn common w-100  text-white fw-semibold ' id='detailsBtn'>View Details</button></Link>
       </div>
     </div>
   </div>

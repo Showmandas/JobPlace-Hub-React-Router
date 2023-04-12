@@ -18,7 +18,7 @@
     },
     {
         "id":"2",
-        "img":"../public/images/netflix-4 1.png",
+        "img":"../public/images/netflix.png",
         "title":"Senior Product Designer",
         "company":"Netflix",
         "job_type_1":"Onsite",
@@ -35,7 +35,7 @@
     },
     {
         "id":"3",
-        "img":"../public/images/tesla-9 1.png",
+        "img":"../public/images/tesla.png",
         "title":"Software Engineer",
         "company":"Tesla",
         "job_type_1":"Onsite",
@@ -69,7 +69,7 @@
     },
     {
         "id":"5",
-        "img":"../public/images/netflix-4 1.png",
+        "img":"../public/images/netflix.png",
         "title":"Senior Product Designer",
         "company":"Netflix",
         "job_type_1":"Onsite",
@@ -86,7 +86,7 @@
     },
     {
         "id":"6",
-        "img":"../public/images/airbnb-logo-belo-1 1.png",
+        "img":"../public/images/airbnb.png",
         "title":"Motion Graphic Designer",
         "company":"Airbnb LLC",
         "job_type_1":"Onsite",
